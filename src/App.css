@@ -1,0 +1,27 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .menuButton {
+    display: none;
+  }
+}
